@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+     font-family: "Roboto", sans-serif;
+}
+nav{
+    max-width: 1400px;
+min-height: 70px;
+    background-color: #00000033;
+        position: fixed;
+    left: 0;
+    right: 0;
+z-index: 1 !important;
+}
+.logo{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;flex-wrap: wrap;
+    margin:0 auto;
+    padding-top: 15px;
+}
+.tabs{
+    display: flex;
+    gap: 50px;
+}
+.tabs a{
+    color: #000000;
+    text-decoration: none;
+}
+.btn{
+    border-radius: 0 !important;
+}
+/* .head{
+    padding-top: 200px !important;
+    display: flex !important;flex-wrap: wrap !important;
+}
+.head1{
+    margin-top: 30px !important;
+    font-weight: bolder !important;
+    width: 410px !important;
+    margin-left: 20px !important;
+} */
+ .home{
+    max-width: 100vw;
+    height: 100vh;
+ }
+ .hero{
+    max-width: 1400px;
+    min-height: 800px;
+    display: flex;flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;padding-top: 150px;
+ }
+ .content{
+    width: 50%;
+    padding-left: 30px;
+ }
+ .content h2{
+    font-weight: bold;
+    width: 500px;
+        font-size: 40px;
+
+ }
+ .content p{
+    width: 500px;
+ }
+ .img{
+    width: 50%;
+ }
+.input-group{
+    height: 50px;
+    width: 410px;
+    border: 5px solid rgb(49, 74, 237);
+}
+.input-group .submit-btn{
+    width: 151px;
+    margin-left: 10px;
+    border: none;
+}
+.email-input{
+    width: 250px;
+    border: none;
+
+}
+.para{
+    padding-left: 160px !important;
+    color: gray !important;
+}
+.img1{
+    margin-left: 50px;
+}
+ /* .hero1{
+    max-width: 1400px;
+    min-height: 900px;
+    display: flex;flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 150px;
+ }
+.img2{
+    width: 50%;display: inline-block;
+}
+.img2 img{
+    width: 800px;
+    height: 700px;
+    margin-top: 100px;
+    display: inline-block;
+}
+.content1{
+    width: 20%;display: inline-block;
+}
+.content1 h2{
+    
+}
+.content1 img{
+    display: inline-block;
+} */
+ .home1{
+    margin-top: 200px;
+ }
+ .home2 img{
+    width: 700px !important;
+ }
