@@ -22,13 +22,31 @@
     .home1{
         flex-direction: column;
     }
+    .content h1{
+        width: 350px;
+        padding-left: 80px;
+    }
+    .home4{
+        flex-direction: column;
+    }
+    .content1 p{
+        width: 300px;
+    }
 } 
+@media(max-width:800px){
+    .content1 p{
+        width: 200px;
+    }
+    .card3{
+        margin-left: 50px !important;
+    }
+}
+
 @media(max-width:750px){
     .content h2{
         width:100px ;
-        padding-left: 10px;
-    }
-        .content p{
+        padding-left: 10px;}
+            .content p{
         width:100px ;
         padding-left: 10px;
     }
@@ -45,5 +63,4 @@
         width:100px ;
         padding-left: 0px;
     }
-
 }
