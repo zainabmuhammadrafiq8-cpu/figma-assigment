@@ -29,8 +29,14 @@
     .home4{
         flex-direction: column;
     }
-    .content1 p{
-        width: 300px;
+    .home{
+        flex-direction: column;
+    }
+    .home5{
+        flex-direction: column;
+    }
+    .card5{
+        flex-direction: column;
     }
 } 
 @media(max-width:800px){
