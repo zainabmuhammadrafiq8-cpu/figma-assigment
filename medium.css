@@ -38,6 +38,12 @@
     .card5{
         flex-direction: column;
     }
+    .email1{
+        margin-left: 100px !important;
+    }
+    .footer1{
+        flex-direction: column;
+    }
 } 
 @media(max-width:800px){
     .content1 p{
@@ -59,6 +65,10 @@
 .img0{
     flex-direction: column;
 }
+    .email1{
+        margin-left: 50px !important;
+    }
+
 }
 @media(max-width:700px){
     .content h2{

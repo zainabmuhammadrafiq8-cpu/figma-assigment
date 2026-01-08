@@ -218,11 +218,138 @@ margin: 0 auto;
 }
 .card4{
 max-width: 100vw;
-min-height: 600px;
+min-height: 500px;
 display: flex;
 align-items: center;
 padding-top: 40px;
     background-color: #EEF1F7 !important;
 flex-wrap: wrap;
 border: none;
+}
+.col{
+    width: 1400px !important;
+    min-height: 500px !important;
+    padding-top: 20px !important;
+    margin-top: 90px !important;
+}
+.video{
+    padding-top: 50px;
+}
+.video h1{padding-top: 80px !important;
+}
+.video p{
+    width: 320px !important;
+   padding-left: 20px !important;
+   margin: 0 auto !important;
+}
+.video .coll{
+    padding-top: 10px !important;
+}
+.sm-card{
+    width: 250px !important;
+    border: 1px solid rgb(245, 231, 231) !important;
+    border-radius: 10px !important;
+    padding: 20px !important;
+    display: inline-block !important;
+    font-size: 10px !important;
+}
+.sm-card p{
+    width: 180px !important;
+}
+.sm-card .coll{
+    width: 150px;
+    height: 400px !important;
+}
+.sub{
+    width: 200px;
+    height: 60px;
+    background-color: black;
+    color: #EEF1F7;
+    margin-bottom: 30px;
+}
+.email{
+    width: 170px;
+        height: 60px;
+        padding-left: 50px;
+        background-color: white;
+    margin-bottom: 30px;
+
+}
+
+.faq-item {
+    max-width: 1400px;
+    /* margin: 10px; */
+    font-family: sans-serif;
+    border-radius: 5px;
+}
+.faq-item h1{
+    align-items: center;
+}
+.faq-item p{
+    width: 700px;
+
+}
+.question {
+    background-color: #f1f1f1;
+    padding: 10px;
+    margin: 0;
+    cursor: pointer;
+}
+.question h3{
+    font-weight: bolder;
+}
+
+/* Shuruat mein answer ko chhupa dein */
+.answer {
+    display: none; 
+    padding: 10px;
+    background-color: white;
+    color: #555;
+}
+
+/* Jab faq-item par mouse jaye, toh answer dikhayein */
+.faq-item:hover .answer {
+    display: inline-block;
+}
+
+/* Hover par question ka color bhi badal sakte hain */
+.faq-item:hover .question {
+    background-color: #007bff;
+    color: white;
+}
+#img{
+    padding-left: 30px;
+    padding-bottom: 20px;
+}
+.footer{
+    max-width: 1400px !important;
+    height: 700px !important;
+    margin-top: 150px !important;
+}
+.footer h2{
+    width:500px !important;
+    font-weight: bolder !important;
+    margin: 0 auto !important;
+    padding-bottom: 40px !important;
+}
+.footer p{
+    width: 500px !important;
+}
+.email1{
+margin-left: 350px !important;
+}
+.footer1{
+    width: 1400px;
+    height: 400px;
+    background-color: #000000;
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 4em;
+}
+.footer1 img{width: 150px;
+    height: 100px;
+
 }
